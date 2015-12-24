@@ -51,6 +51,14 @@ a:hover {
   opacity: 0.7;
 }
 
+.title-link {
+    font-size: 20px;
+    display: inline-block;
+    max-width: 100%;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
 #avatar {
 	display: inline-block;
 	width: 80px;
