@@ -9,6 +9,18 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 	clear: both;
 }
 
+#profile_photo {
+	border-radius: 1.5em;
+	margin-bottom: 14px;
+}
+
+#email {
+	display: inline-block;
+	margin-top: 12px;
+}
+#email::before { content: "igor";  } 
+#email::after { content: "-lashkov\40ya.ru"; }
+
 /* Base */
 body {
 	font:16px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -82,15 +94,6 @@ a:hover {
 	z-index: 100;
 }
 
-/* Made with Cactus Badge */
-#badge {
-	position: absolute; 
-	bottom: 8px; 
-	right: 8px;
-	height: 48px; 
-	width: 48px;
-}
-
 /* Type */
 /* Accent color */
 a {
@@ -101,15 +104,16 @@ a {
 
 h1 {
 	font-weight: 400;
-	font-size: 20px;
 	color: #222;
+	font-weight: 600;
+	font-size: 28px;
 }
 
 h2 {
-	font-size: 20px;
+	font-size: 22px;
 	font-weight: 300;
 	color: #aaa; 
-	margin-top: 10px;
+	margin-top: 14px;
 }
 
 p {
