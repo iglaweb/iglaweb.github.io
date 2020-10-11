@@ -40,6 +40,8 @@ html {
 #email {
 	display: inline-block;
 	margin-top: 12px;
+	text-align: center;
+	font-size: 16px;
 }
 #email::before { content: "igor";  } 
 #email::after { content: "-lashkov\40ya.ru"; }
@@ -76,6 +78,13 @@ body {
   padding: 8px;
   background-color: transparent;
   opacity: 0.2;
+}
+
+.one_column {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  display: inline-block;
+  position: relative;
 }
 
 .w-inline-block {
