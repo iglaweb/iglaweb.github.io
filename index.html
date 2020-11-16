@@ -6,9 +6,16 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="shortcut icon" href="static/images/favicon.ico">
 	<link rel="icon" type="image/png" href="static/images/favicon-16x16.png" sizes="16x16">
-	<link rel="icon" type="image/png" href="static/images/favicon-32x32.png" sizes="32x32">
-	<link rel="stylesheet" href="static/css/style.css">
-	<title>Igor Lashkov</title>
+    <link rel="icon" type="image/png" href="static/images/favicon-32x32.png" sizes="32x32">
+    
+
+    <!-- Latest compiled and minified CSS -->    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="static/css/style.css">
+    
+    <title>Igor Lashkov</title>
+    <meta name="author" content="Igor Lashkov">
     <meta name="description" content="Homepage of Igor Lashkov.">
     <meta property="og:title" content="Igor Lashkov" />
     <meta property="og:locale" content="en_US" />
@@ -48,42 +55,154 @@
     <noscript><div><img src="https://mc.yandex.ru/watch/5515471" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
 
+
+    <header id="header">
+        <a href='#projects' class="title-link" id="projectsMenu">Projects</a> 
+        <a href='https://www.scopus.com/authid/detail.uri?authorId=56719631000' class="title-link">Papers</a>
+        <a href='resume.html' class="title-link">Resume</a>
+    </header>
+
 	<section id="wrapper">
-		<header id="header">
+
+		<header id="content">
 			<img id="profile_photo" src="static/images/photo_profile.min.jpg" style="width: 180px" alt="Igor Lashkov"/>
 			<h1>Igor Lashkov</h1>
 			<h2>Researcher at <a href="http://www.spiiras.nw.ru/en/">SPIIRAS</a></h2>
 			<h3>My research focuses on human-centered applications of knowledge management, context modeling, recommendation systems, data analysis, especially in intelligent transportation domain.</h3>
 		</header>
 
-        <header id="header">
-            <a href='https://github.com/iglaweb' class="title-link">Projects</a> 
-            <a href='https://www.scopus.com/authid/detail.uri?authorId=56719631000' class="title-link">Papers</a>
-            <a href='resume.html' class="title-link">Resume</a>
-        </header>
-        
-        <header id="footer">
 
-        <div class="one_column">
-	         <a href="https://twitter.com/iglaweb" target="_blank" class="w-inline-block footer-link-connect" rel="nofollow" title="Follow Twitter">
-	            <img width="23" src="static/images/f-logo-twitter.png">
-	         </a>
-    	 </div>
-    	 <div class="one_column">
-	         <a href="https://www.instagram.com/iglaweb/" target="_blank" class="w-inline-block footer-link-connect" rel="nofollow" title="Follow Instagram">
-	            <img width="21" src="static/images/f-logo-instagram.png">
-	         </a>
-     	</div>
-     	<div class="one_column">
-	         <a href="https://github.com/iglaweb" target="_blank" class="w-inline-block footer-link-connect" rel="nofollow"  title="Follow Github">
-	            <img width="22" src="static/images/f-logo-github.png">
-	         </a>
-     	</div>
-     	<div class="one_column">
-	         <a href="https://www.linkedin.com/in/iglaweb" target="_blank" class="w-inline-block footer-link-connect" rel="nofollow" title="Follow Linkedin">
-	            <img width="22" src="static/images/f-logo-linkedin.png">
-	         </a>
-     	</div>
+      <!-- Projects -->
+      <div class="row">
+        <div class="col-xs-12">
+          <h2 class="bioLead" id="projects">
+            Some projects I've worked on.
+          </h2>
+        </div>
+
+        <div class="col-sm-12">
+          <div class="well paperWell">
+            <a class="pull-left thumbnail paperIcon" href="https://play.google.com/store/apps/details?id=ru.igla.drivesafely"> <img class="paperImage" src="static/images/project_ds_icon.png"> </a>
+            <div class="media-body paperBody project">
+              <h3 class="media-heading title"><a href="https://play.google.com/store/apps/details?id=ru.igla.drivesafely">Drive Safely</a>
+              </h3>
+              <p class="text">
+                Drive  Safely Assistant for Android and JVM providing actionable information to a driver how to prevent a road accident. It recognizes driver’s drowsiness, distraction, belt presence, phone usage, eating, smoking, and camera sabotage.
+              </p>
+
+              <div class="project-meta">
+                <i class="fa fa-calendar icon" aria-hidden="true"></i>
+                <span class="date">2016–Present</span>
+                <i class="fa fa-file-code-o icon" aria-hidden="true"></i>
+                <span class="code">Java</span> 
+                <span class="code">Kotlin</span> 
+                <span class="code">C++</span> 
+                <span class="code">OpenCV</span>
+                <span class="code">TensorFlow</span>
+              </div>
+             
+              <div class="project-links">
+                <a href="https://play.google.com/store/apps/details?id=ru.igla.drivesafely" target="_blank">
+                    <img style="max-width: 140px;" class="img" src="static/images/google_play_badge.png" alt="Drive Safely.">
+                </a>
+             </div>
+
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="col-sm-12">
+            <div class="well paperWell">
+                <a class="pull-left thumbnail paperIcon" href="https://github.com/iglaweb/TFProfiler"><img class="paperImage" src="static/images/tensorflow_icon.png"> </a>
+                <div class="media-body paperBody project">
+                  <h3 class="media-heading title"><a href="https://github.com/iglaweb/TFProfiler">TFProfiler</a>
+                  </h3>
+                  <p class="text">
+                    TFProfiler is an app that aims to profile TensorFlow Lite model and measure its performance using FPS, model initialization time, model inference time, memory consumption, etc. 
+                    You can tweak model runs with different delegates (CPU, GPU, NNAPI, HEXAGON), XNNPACK option, number of threads.
+                  </p>
+
+                  <div class="project-meta">
+                    <i class="fa fa-calendar icon" aria-hidden="true"></i>
+                    <span class="date">2020-Present</span>
+                    <i class="fa fa-file-code-o icon" aria-hidden="true"></i>
+                    <span class="code">Kotlin</span> 
+                    <span class="code">Java</span> 
+                  </div>
+                 
+                  <div class="project-links">
+                    <a href="https://github.com/iglaweb/TFProfiler" target="_blank">
+                        <button type="button" class="btn btn-light">
+                            <i class="fa fa-github"></i>
+                            GitHub
+                        </button>
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=ru.igla.tfprofiler" target="_blank">
+                        <img style="max-width: 140px;" class="img" src="static/images/google_play_badge.png" alt="Drive Safely.">
+                    </a>
+                  </div>
+                </div>
+          </div>
+        </div>
+
+        
+        <div class="col-sm-12">
+          <div class="well paperWell">
+            <a class="pull-left thumbnail paperIcon" href="https://github.com/iglaweb/Eye-Openness-TensorFlow"> <img class="paperImage" src="static/images/eye_classify_evaluate_model.png"> </a>
+            <div class="media-body paperBody project">
+              <h3 class="media-heading title"><a href="https://github.com/iglaweb/Eye-Openness-TensorFlow">Eye State classification</a>
+              </h3>
+              <p class="text">
+                The eye state classifier is based on transfer learning technique. 
+                I use transfer learning where we take a pre-trained network (trained on about a million general images), use it to extract features, and train a new layer on top for our own task of classifying images of eyes.
+              </p>
+
+              <div class="project-meta">
+                <i class="fa fa-calendar icon" aria-hidden="true"></i>
+                <span class="date">2020-Present</span>
+                <i class="fa fa-file-code-o icon" aria-hidden="true"></i>
+                <span class="code">Python</span> 
+                <span class="code">Jupyter Notebook</span> 
+              </div>
+             
+              <div class="project-links">
+                <a href="https://github.com/iglaweb/Eye-Openness-TensorFlow" target="_blank">
+                    <button type="button" class="btn btn-light">
+                        <i class="fa fa-github"></i>
+                        GitHub
+                    </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+        <header id="footer">
+	        <div class="one_column">
+		         <a href="https://twitter.com/iglaweb" target="_blank" class="w-inline-block footer-link-connect" rel="nofollow" title="Follow Twitter">
+		            <img width="23" src="static/images/f-logo-twitter.png">
+		         </a>
+	    	 </div>
+	    	 <div class="one_column">
+		         <a href="https://www.instagram.com/iglaweb/" target="_blank" class="w-inline-block footer-link-connect" rel="nofollow" title="Follow Instagram">
+		            <img width="21" src="static/images/f-logo-instagram.png">
+		         </a>
+	     	</div>
+	     	<div class="one_column">
+		         <a href="https://github.com/iglaweb" target="_blank" class="w-inline-block footer-link-connect" rel="nofollow"  title="Follow Github">
+		            <img width="22" src="static/images/f-logo-github.png">
+		         </a>
+	     	</div>
+	     	<div class="one_column">
+		         <a href="https://www.linkedin.com/in/iglaweb" target="_blank" class="w-inline-block footer-link-connect" rel="nofollow" title="Follow Linkedin">
+		            <img width="22" src="static/images/f-logo-linkedin.png">
+		         </a>
+	     	</div>
         </header>
         <header id="footer">
             <span id="email"></span>

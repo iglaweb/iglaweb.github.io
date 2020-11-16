@@ -42,6 +42,7 @@ html {
 	margin-top: 12px;
 	text-align: center;
 	font-size: 16px;
+	font-weight: 300;
 }
 #email::before { content: "igor";  } 
 #email::after { content: "-lashkov\40ya.ru"; }
@@ -55,15 +56,27 @@ body {
 }
 
 #wrapper {
-	padding: 80px 40px;
-	max-width: 500px;
+	max-width: 800px;
+	padding: 2em 40px;
 	margin: 0 auto;
 }
 
 #header {
+	border-bottom: 1px solid rgba(238, 238, 238);
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#content {
 	border-bottom: 1px solid #eee;
 	margin-bottom: 40px;
-	padding-bottom: 40px;
+	padding-bottom: 20px;
 	text-align: center;
 	position: relative;
 }
@@ -97,11 +110,12 @@ a:hover {
 }
 
 .title-link {
-    font-size: 20px;
+	font-weight: 400;
+    font-size: 18px;
     display: inline-block;
     max-width: 100%;
-    padding-left: 13px;
-    padding-right: 13px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 #avatar {
@@ -129,10 +143,17 @@ a:hover {
 
 /* Type */
 /* Accent color */
+
+/**Boostrap clone*/
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
 a {
 	text-decoration: none;
 	color: #5694f1;
-	font-weight: 400;
 }
 
 h1 {
@@ -146,7 +167,6 @@ h2 {
 	font-size: 22px;
 	font-weight: 400;
 	color: #4c4b4b; 
-	margin-top: 20px;
 }
 
 h3 {
@@ -156,6 +176,8 @@ h3 {
 	color: #888; 
 	margin-top: 24px;
 	text-align: center;
+	max-width: 500px;
+	display: inline-block;
 }
 
 p {
@@ -173,4 +195,159 @@ p {
 @media screen and (max-width:440px) {
 	#wrapper { padding:20px; }
 	#header { margin-bottom: 20px; }
+}
+
+
+
+
+.projects_title {
+	font-size: 22px;
+	font-weight: 400;
+	color: #4c4b4b; 
+	margin-top: 20px;
+
+	box-sizing: border-box;
+	clear: both;
+	font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
+	line-height: 20px;
+	margin-top: 7px;
+	overflow-wrap: break-word;
+
+	border-bottom: 1px solid #eee;
+	padding-bottom: 40px;
+	text-align: center;
+	position: relative;
+}
+.projects_title_min {
+	text-align: center;
+
+	white-space: nowrap;
+	height: auto;
+	line-height: 1;
+	text-align: center;
+	font-size: 1rem;
+
+	border: none;
+	margin: calc(2rem - .1428571428571429em) 0 1rem;
+		margin-bottom: 1rem;
+	padding: 0 0;
+	font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+	font-weight: 700;
+	line-height: 1.28571429em;
+	text-transform: none;
+	color: rgba(0,0,0,.87);
+}
+
+.projects_img {
+	position: relative;
+	display: block;
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 auto;
+	flex: 0 0 auto;
+	padding: 0;
+	background: rgba(0,0,0,.05);
+}
+.projects_img img {
+    width: 300px;
+}
+
+.projects_card {
+	width: calc(33.33333333333333% - 2em);
+	margin-left: 1em;
+	margin-right: 1em;
+	font-size: 1em;
+	max-width: 100%;
+	display: inline-block;
+	position: relative;
+	word-wrap: break-word;
+
+}
+
+.projects_card .content .title {
+    font-weight: 700;
+    font-size: 1.28571429em;
+    margin-top: -.21425em;
+	line-height: 1.28571429em;
+}
+
+.projects_card .content .description {
+	margin-top: .5em;
+	color: rgba(0,0,0,.87);
+	font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+	line-height: 1.4285em;
+	font-size: 14px;
+}
+
+.projects_card .content .meta {
+    font-size: 1em;
+	color: rgba(0,0,0,.4);
+	line-height: 1.4285em;
+	font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+}
+
+
+h4 {
+	color:#333;
+}
+.course {
+    background-color: white;
+	min-height: 146px;
+}
+.paperWell {
+    min-height: 170px;
+}
+.well {
+    background-color: white;
+}
+.paperIcon {
+    max-width: 130px;
+    margin-right: 20px;
+    border: 0px;
+    padding: 0px;
+}
+
+.project > .title {
+	color: rgba(0,0,0,.4);
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 500;
+}
+.project > .text {
+	color:rgba(0, 0, 0, 0.68);
+	text-decoration: none;
+	font-size: 15px;
+	line-height: 20px;
+	font-weight: 200;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.project > .project-meta > .icon {
+	margin-right: .3em;
+	color: rgba(0,0,0,.4);
+	font-size: 1em;
+	display: inline-block;
+}
+.project > .project-meta > .date {
+	margin-right: .3em;
+	color: rgba(0,0,0,.4);
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 400;
+}
+.project-meta > .code {
+	margin-right: .3em;
+	color: rgba(0,0,0,.4);
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 400;
+}
+.project-links a {
+	margin-top: .75em;
+	font-size: 14px;
+	color: rgba(0,0,0,.4);
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	white-space: nowrap;
 }
