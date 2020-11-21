@@ -33,8 +33,9 @@ html {
 }
 
 #profile_photo {
-	border-radius: 1.5em;
+	border-radius: 50%;
 	margin-bottom: 14px;
+	width: 220px;
 }
 
 #email {
