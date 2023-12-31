@@ -25,26 +25,23 @@ organizations:
     url: https://manoa.hawaii.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include human-centered applications of machine learning, advanced driver assistance systems, and connected vehicle applications.
 
 # Interests to show in About widget
 interests:
   - Machine Learning
-  - Image Processing
+  - Computer Vision
   - Intelligent Transportation 
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: PhD in Mathematical and Software Support for Computing Machinery, Systems and Computer Networks
+      institution: St. Petersburg Federal Research Center of the Russian Academy of Sciences (SPC RAS)
+      year: 2019
+    - course: BSc & MSc in Computer Science
+      institution: ITMO University
+      year: 2014
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -96,16 +93,16 @@ social:
     link: '/#contact'
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
+    link: https://twitter.com/iglaweb
     label: Follow me on Twitter
     display:
       header: true
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: https://scholar.google.com/citations?user=btDuT3gAAAAJ&hl=en
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/iglaweb
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/
@@ -120,5 +117,5 @@ social:
 highlight_name: true
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Igor Lashkov is a Postdoctoral Scholar at the University of Hawaii at Manoa. His research interests include human-centered applications of machine learning, advanced driver assistance systems, and connected vehicle applications.
 {style="text-align: justify;"}
