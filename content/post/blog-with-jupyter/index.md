@@ -1,7 +1,13 @@
 ---
-title: Blog with Jupyter Notebooks!
-date: '2023-11-04'
-summary: Easily blog from Jupyter notebooks!
+title: Drive Safely
+date: '2021-01-01'
+summary: Drive Safely Assistant for Android and JVM provides actionable information to a driver how to prevent a road accident. It recognizes driver’s drowsiness, distraction, belt presence, phone usage, eating, smoking, and camera sabotage.
+
+links:
+  - name: 'APK'
+    url: https://www.dropbox.com/s/ba9tc3stcy43hkx/app-opencv-minsdk16-release-github.apk?dl=0
+  - name: 'Google Play'
+    url: https://play.google.com/store/apps/details?id=ru.igla.drivesafely
 ---
 
 
