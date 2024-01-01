@@ -14,7 +14,7 @@ image:
 
 links:
   - name: 'APK'
-    url: https://www.dropbox.com/s/ba9tc3stcy43hkx/app-opencv-minsdk16-release-github.apk?dl=0
+    url: https://www.dropbox.com/scl/fi/rohbqmb7spmwqt8z0jzwp/app-opencv-minsdk16-release.apk?rlkey=jqfxhem2quo8xsj7simk8ci1o&dl=0
   - name: 'Google Play'
     url: https://play.google.com/store/apps/details?id=ru.igla.drivesafely
 url_code: ''
