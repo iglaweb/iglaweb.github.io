@@ -71,6 +71,7 @@ sections:
       columns: '2'
   - block: portfolio
     id: projects
+    hidden: true
     content:
       title: Projects
       filters:
