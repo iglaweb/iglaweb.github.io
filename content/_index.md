@@ -44,6 +44,7 @@ sections:
       username: admin
   - block: collection
     id: posts
+    active: false
     content:
       title: Recent Posts
       subtitle: ''
