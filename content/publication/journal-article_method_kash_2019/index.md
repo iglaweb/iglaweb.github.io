@@ -1,16 +1,18 @@
 ---
-title: "An example journal article"
+title: "Methodology and mobile application for driver behavior analysis and accident prevention"
 authors:
 - admin
-- Robert Ford
+- Alexey Kashevnik
+- Andrei Gurtov
 author_notes:
 - "Equal contribution"
 - "Equal contribution"
-date: "2015-09-01T00:00:00Z"
-doi: ""
+- "Equal contribution"
+date: "2019-09-01T00:00:00Z"
+doi: "10.1109/TITS.2019.2918328"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2019-01-01T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -18,23 +20,23 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Journal of Source Themes, 1*(1)"
+publication: "*IEEE transactions on intelligent transportation systems, 21*(6)"
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: This paper presents a methodology and mobile application for driver monitoring, analysis, and recommendations based on detected unsafe driving behavior for accident prevention using a personal smartphone. For the driver behavior monitoring, the smartphone's cameras and built-in sensors (accelerometer, gyroscope, GPS, and microphone) are used. A developed methodology includes dangerous state classification, dangerous state detection, and a reference model. The methodology supports the following driver's online dangerous states: distraction and drowsiness as well as an offline dangerous state related to a high pulse rate. We implemented the system for Android smartphones and evaluated it with ten volunteers.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: This paper presents a methodology and mobile application for driver monitoring, analysis, and recommendations based on detected unsafe driving behavior for accident prevention using a personal smartphone.
 
 tags:
-- Source Themes
+- IEEE transactions on intelligent transportation systems
 featured: false
 
 # links:
 # - name: ""
 #   url: ""
 url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
+url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
