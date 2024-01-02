@@ -23,10 +23,10 @@ publication_types: ["article-journal"]
 publication: "*IEEE transactions on intelligent transportation systems, 21*(6)"
 publication_short: ""
 
-abstract: This paper presents a methodology and mobile application for driver monitoring, analysis, and recommendations based on detected unsafe driving behavior for accident prevention using a personal smartphone. For the driver behavior monitoring, the smartphone's cameras and built-in sensors (accelerometer, gyroscope, GPS, and microphone) are used. A developed methodology includes dangerous state classification, dangerous state detection, and a reference model. The methodology supports the following driver's online dangerous states: distraction and drowsiness as well as an offline dangerous state related to a high pulse rate. We implemented the system for Android smartphones and evaluated it with ten volunteers.
+abstract: "This paper presents a methodology and mobile application for driver monitoring, analysis, and recommendations based on detected unsafe driving behavior for accident prevention using a personal smartphone. For the driver behavior monitoring, the smartphone's cameras and built-in sensors (accelerometer, gyroscope, GPS, and microphone) are used. A developed methodology includes dangerous state classification, dangerous state detection, and a reference model. The methodology supports the following driver's online dangerous states: distraction and drowsiness as well as an offline dangerous state related to a high pulse rate. We implemented the system for Android smartphones and evaluated it with ten volunteers."
 
 # Summary. An optional shortened abstract.
-summary: This paper presents a methodology and mobile application for driver monitoring, analysis, and recommendations based on detected unsafe driving behavior for accident prevention using a personal smartphone.
+summary: "This paper presents a methodology and mobile application for driver monitoring, analysis, and recommendations based on detected unsafe driving behavior for accident prevention using a personal smartphone."
 
 tags:
 - IEEE transactions on intelligent transportation systems
@@ -35,7 +35,7 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: http://arxiv.org/pdf/1512.04133v1
+url_pdf: https://ieeexplore.ieee.org/abstract/document/8730492
 url_code: ''
 url_dataset: ''
 url_poster: ''
