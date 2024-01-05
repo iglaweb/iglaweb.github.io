@@ -9,7 +9,7 @@ author_notes:
 - "Equal contribution"
 - "Equal contribution"
 date: "2023-11-01T00:00:00Z"
-doi: "https://doi.org/10.1109/TITS.2023.3318077"
+doi: "10.1109/TITS.2023.3318077"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2023-11-01T00:00:00Z"
