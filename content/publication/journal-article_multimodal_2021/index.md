@@ -1,16 +1,21 @@
 ---
-title: "An example journal article"
+title: "Multimodal corpus design for audio-visual speech recognition in vehicle cabin"
 authors:
 - admin
-- Robert Ford
+- Alexey Kashevnik
+- Axyonov Alexandr
+- Denis Ivanko
+- Dmitry Ryumin
+- Artem Kolchin
+- Alexey Karpov
 author_notes:
 - "Equal contribution"
 - "Equal contribution"
-date: "2015-09-01T00:00:00Z"
+date: "2021-02-26T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2021-02-26T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -18,13 +23,13 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Journal of Source Themes, 1*(1)"
+publication: "*IEEE Access, 9*(1)"
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: This paper introduces a new methodology aimed at comfort for the driver in-the-wild multimodal corpus creation for audio-visual speech recognition in driver monitoring systems. The presented methodology is universal and can be used for corpus recording for different languages. We present an analysis of speech recognition systems and voice interfaces for driver monitoring systems based on the analysis of both audio and video data. Multimodal speech recognition allows using audio data when video data are useless (e.g. at nighttime), as well as applying video data in acoustically noisy conditions (e.g., at highways). Our methodology identifies the main steps and requirements for multimodal corpus designing, including the development of a new framework for audio-visual corpus creation. We identify the main research questions related to the speech corpus creation task and discuss them in detail in this paper. We also consider some main cases of usage that require speech recognition in a vehicle cabin for interaction with a driver monitoring system. We also consider other important use cases when the system detects dangerous states of driver's drowsiness and starts a question-answer game to prevent dangerous situations. At the end based on the proposed methodology, we developed a mobile application that allows us to record a corpus for the Russian language. We created RUSAVIC corpus using the developed mobile application that at the moment a unique audiovisual corpus for the Russian language that is recorded in-the-wild condition.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: This paper introduces a new methodology aimed at comfort for the driver in-the-wild multimodal corpus creation for audio-visual speech recognition in driver monitoring systems.
 
 tags:
 - Source Themes
@@ -33,8 +38,8 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
+url_pdf: https://ieeexplore.ieee.org/abstract/document/9364986
+url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
