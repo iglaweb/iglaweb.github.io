@@ -1,16 +1,18 @@
 ---
-title: "An example journal article"
+title: "Edge-Computing-Facilitated Nighttime Vehicle Detection Investigations With CLAHE-Enhanced Images"
 authors:
 - admin
-- Robert Ford
+- Runze Yuan
+- Guohui Zhang
 author_notes:
 - "Equal contribution"
 - "Equal contribution"
-date: "2015-09-01T00:00:00Z"
-doi: ""
+- "Equal contribution"
+date: "2023-11-01T00:00:00Z"
+doi: "https://doi.org/10.1109/TITS.2023.3255202"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2023-11-01T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -18,13 +20,13 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Journal of Source Themes, 1*(1)"
+publication: "*IEEE Transactions on Intelligent Transportation Systems, 24*(11)"
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: In this study, we propose a novel CLAHE-based nighttime image contrast enhancement approach for vehicle detection under nighttime conditions, which improves the contrast of low-quality nighttime images while preventing over-enhancement by employing the image dehazing technique. To implement and evaluate our proposed contrast enhancement method on nighttime images, we consider a scenario of using a camera-based Internet of Things (IoT)-edge computing device for traffic and road surveillance. Edge-computing and IoT technology enable significant amounts of novel studies to advance traffic system monitoring, sensing, control, and management. Considering multiple metrics of image enhancement quality, the proposed nighttime image contrast enhancement method outperforms some existing well-performing CLAHE-based methods. To provide accurate vehicle detection under nighttime conditions and different challenges, including vehicle overlapping, low-light conditions, camera vibrations, and image distortion, must be addressed. For this purpose, a deep neural network based on YOLOv5 architecture has been designed and trained using our custom-labeled dataset. The developed neural network is proven to be effective in the detection of different vehicles under low-light ambient conditions using video captured from a stationary camera. Experiments on our dataset show that the proposed contrast enhancement method greatly improves the detection performance of the trained YOLOv5 model under low-environment-light conditions compared with the model trained using unenhanced images. The model trained with enhanced images can provide an improvement of 5.7% on F1 score, 6.3% on mAP0.5, and 3.4% on mAP0.5:0.95 under specific conditions.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: In this study, we propose a novel CLAHE-based nighttime image contrast enhancement approach for vehicle detection under nighttime conditions, which improves the contrast of low-quality nighttime images while preventing over-enhancement by employing the image dehazing technique.
 
 tags:
 - Source Themes
@@ -33,8 +35,8 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
+url_pdf: https://ieeexplore.ieee.org/abstract/document/10074978
+url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
@@ -61,7 +63,7 @@ projects: []
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+slides: ""
 ---
 
 {{% callout note %}}
